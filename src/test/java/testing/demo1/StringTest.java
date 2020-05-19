@@ -1,16 +1,23 @@
-package testing;
+package testing.demo1;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Timeout;
 
 import java.util.concurrent.TimeUnit;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * Примеры тестов c аннотациями
  */
 public class StringTest {
+
+    //тестим что под индексом 0 стоит символ 'H'
+    @Test
+    public void substring_should_count_chars_from_0() {
+        assertEquals('H', "Hello".charAt(0));
+    }
 
     //тестим что будет брошено исключение
     @Test

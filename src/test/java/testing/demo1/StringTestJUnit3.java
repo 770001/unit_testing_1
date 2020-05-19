@@ -1,9 +1,9 @@
-package testing;
+package testing.demo1;
 
 import junit.framework.TestCase;
 
 /**
- * Тест от JUnit3 без аннотаций. Устаревшая версия.
+ * Тест на старом JUnit3 без аннотаций. Устаревшая версия.
  */
 public class StringTestJUnit3 extends TestCase {
 
