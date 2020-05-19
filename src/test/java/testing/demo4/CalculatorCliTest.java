@@ -19,7 +19,7 @@ public class CalculatorCliTest {
     private Calculator calculatorMock;
     private CalculatorCli calculatorCli;
 
-    //перед каждым тестом сво объекты
+    //перед каждым тестом свои объекты
     @BeforeEach
     public void setUp() {
         //создаем заглушку или тестовый дублер
